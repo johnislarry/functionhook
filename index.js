@@ -15,5 +15,3 @@ module.exports = function applyHook(obj, hook) {
     }
   }
 }
-
-applyHook(global, () => console.log('hi'));
